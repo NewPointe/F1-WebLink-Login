@@ -5,7 +5,7 @@
 <title>Login Page</title>
 </head>
 <body>
-<form id='login' action="authenticate.php" method="post" accept-charset='UTF-8'>
+<form id='login' action="loginAction.php" method="post" accept-charset='UTF-8'>
   <fieldset>
   	<legend>Login</legend>
     <?php if(isset($_GET['login']) && $_GET['login'] == "failed")
